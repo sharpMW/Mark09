@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  background: linear-gradient(135deg, #35004f, rgb(0, 0, 0));
+}
+
 .App {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: white;
   font-weight: 1000;
-  background: linear-gradient(135deg, rgb(114, 114, 114), rgb(0, 0, 0));
-}
-.header {
-  font-weight: 100;
 }
 .artist-btn {
   display: flex;
@@ -39,8 +39,12 @@ ul {
 }
 div.line {
   width: 50%;
+  height: 0.5vh;
+  margin-left: 25%;
+  text-align: center;
   background-color: white;
 }
+
 /* li { 
   display: flex;
 } */

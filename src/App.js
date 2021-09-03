@@ -153,16 +153,16 @@ export default function App() {
           </div>
         ))}
       </ul>
-      {/* <div className="line"></div> */}
-      {/* <footer className="footer-class">
+      <div className="line"></div>
+      <footer className="footer-class">
         <div className="footer-div">
           Made By <a href="https://sharpmw.netlify.app/">Saarim</a>
           <br></br>
           <a href="https://github.com/sharpMW">
             <i class="fab fa-github"></i>
-          </a>    
-          </div>
-      </footer> */}
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
