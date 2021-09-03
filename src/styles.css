@@ -1,22 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   background: linear-gradient(135deg, #35004f, rgb(0, 0, 0));
+  text-align: center;
 }
 
 .App {
   font-family: "Montserrat", sans-serif;
-  text-align: center;
   color: white;
   font-weight: 1000;
 }
-.artist-btn {
-  display: flex;
-  overflow: scroll;
-  align-items: center;
-}
-.artist-btn::-webkit-scrollbar {
-  display: none;
-}
+
 button {
   font-family: "Montserrat", sans-serif;
   padding: 0.5rem;

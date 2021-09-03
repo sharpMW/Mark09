@@ -146,8 +146,11 @@ export default function App() {
               <img className="image" src={mySong.image} alt={mySong.songName} />
               <div className="songinfo">
                 <h3> {mySong.songName} </h3>
-                <p> {mySong.albumName} </p>
-                <p> {mySong.releaseYear} </p>
+                <p>
+                  {" "}
+                  {mySong.albumName} <br></br>
+                  {mySong.releaseYear}{" "}
+                </p>
               </div>
             </li>
           </div>
