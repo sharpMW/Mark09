@@ -12,7 +12,7 @@ body {
 .artist-btn {
   display: flex;
   overflow: scroll;
-  text-align: center;
+  align-items: center;
 }
 .artist-btn::-webkit-scrollbar {
   display: none;
@@ -49,7 +49,8 @@ div.line {
   margin-bottom: 1vh;
   font-size: 2rem;
 }
-
-/* li { 
+.saarim {
+  color: #6b01a0;
+} /* li { 
   display: flex;
 } */
