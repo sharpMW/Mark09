@@ -44,6 +44,11 @@ div.line {
   text-align: center;
   background-color: white;
 }
+.footer-div {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  font-size: 2rem;
+}
 
 /* li { 
   display: flex;
